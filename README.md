@@ -12,7 +12,8 @@ factorization change when the input is modified by exactly one
 
 ### tl;dr
 
-Run `benchmark.sh` to generate all canonical test sequences and run all compressors.
+Run `benchmark.sh | grep RESULT` to generate all canonical test sequences and 
+report the number of factors for all compressors.
 
 ---
 
