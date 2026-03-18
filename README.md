@@ -26,7 +26,7 @@ parsing the input left-to-right:
 |-----------|------------------------|
 | **LZW** (Lempel–Ziv–Welch) | Longest-match phrase W extended by the next symbol |
 | **LZD** (Lempel–Ziv–Double) | Two consecutive longest-match phrases f₁·f₂ |
-| **LZMW** (Lempel–Ziv–Miller–Wegman) | Previous factor concatenated with current factor |
+| **LZMW** (Lempel–Ziv–Miller–Wegman) | Longest previous factor concatenated with its subsequent factor |
 
 For each algorithm the repository provides:
 - A **generator** that constructs a worst-case input text T and its 1-edit
